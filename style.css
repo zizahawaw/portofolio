@@ -1,0 +1,132 @@
+body{
+    background-color: rgb(249, 249, 249);
+    scroll-behavior: smooth;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+nav{
+    display: flex; 
+    justify-content: space-between;
+    padding: 2%;
+    position: sticky;
+  
+}
+
+nav a{
+  text-decoration: none;
+}
+
+nav a:hover{
+    background-color: rgb(159, 172, 198);
+}
+section{
+    position: sticky;
+
+}
+
+.myhome{
+  padding: 2%;
+  color: cornflowerblue;
+  text-shadow: 10%;
+  font-size: 25px;
+  
+}
+
+.mauwe{
+    display: flex;
+    margin-right: 20px;
+    gap: 40px;
+}
+.fotoku{
+    width: 20%;
+    height: 10%;
+    border-radius: 5%;
+  
+    
+}
+.mau{
+    color: black;
+    justify-content: center;
+    letter-spacing: 4px;
+    
+}
+
+.aboutme{
+    border-style: groove;
+    border-color: cadetblue;
+}
+.mui{
+    font-size: 40px;
+    color: cornflowerblue;
+    border-bottom: 3px solid rgb(32, 60, 88);
+
+   
+}
+.maui{
+    font-size: 25px;
+    letter-spacing: 4px;
+    justify-content:space-around;
+   
+}
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+    max-width: 800px;
+    margin: auto;
+    border-style: groove;
+   border: 3px solid rgb(32, 60, 88);
+
+  }
+
+  .gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+
+  .kontakku{
+    border-style: groove;
+    border-color: cadetblue;
+
+  }
+.konte{
+    font-size: 40px;
+    color: cornflowerblue;
+    border-bottom: 3px solid rgb(32, 60, 88);
+  
+}
+.mypro{
+     border-style: groove;
+    border-color: cadetblue;
+
+}
+.meprj{
+   font-size: 40px;
+    color: cornflowerblue;
+    border-bottom: 3px solid rgb(32, 60, 88);
+   
+}
+.mypro p{
+    font-size: 25px;
+
+}
+.galler-project{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+    max-width: 800px;
+    margin: auto;
+}
+.galler-project img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+@media(max-width: 768px){
+    body{
+        background-color: burlywood;
+    }
+
+}
+    
+
